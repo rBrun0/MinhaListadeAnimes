@@ -1,0 +1,33 @@
+.mainContainer{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.animeCard{
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(255, 111, 15);
+    overflow: hidden;
+    padding: 10px;
+}
+
+.imageContainer{
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+}
+
+.imageContainer img{
+    width: 60%;
+     
+}

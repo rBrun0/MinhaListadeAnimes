@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbarContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(226, 116, 43);
+    padding: 11px;
+}
+
+.logoContainer{
+    width: 105px;
+    cursor: pointer;
+}
+
+.logoContainer img{
+    width: 100%;
+}
+
+.navContainer .inputText{
+    width: 40px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid rgb(226, 116, 43);
+    background-color: rgb(226, 116, 43);
+    padding: 4px;
+    font-weight: bold;
+    transition: all .2s;
+    cursor: pointer;
+    color: transparent;
+}
+
+.navbarContainer .inputText:focus{
+    width: 300px;
+    background-color: white;
+    cursor: text;
+    color: rgb(71, 71, 71);
+}
